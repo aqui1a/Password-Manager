@@ -14,7 +14,7 @@
 
 ### Для всех систем:
 ```bash
-git clone https://github.com/yourrepo/password-manager.git
+git clone https://github.com/aqui1a/Password-Manager.git
 cd password-manager
 sudo cp pm /usr/local/bin/
 ```
@@ -40,7 +40,6 @@ pm --add-pass test
 ### Настройка автодополнения для bash:
 
 ```bash
-Copy
 echo 'source <(pm --completion)' >> ~/.bashrc
 source ~/.bashrc
 ```
